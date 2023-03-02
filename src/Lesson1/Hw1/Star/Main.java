@@ -1,8 +1,6 @@
 package Lesson1.Hw1.Star;
 
 public class Main {
-    public Main() {
-    }
 
     public static void main(String[] args) {
 
