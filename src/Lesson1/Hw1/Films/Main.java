@@ -1,11 +1,20 @@
 package Lesson1.Hw1.Films;
 
 public class Main {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//        Film film1 = new Film(1,"Ago",2020);
+//        film1.addSkill(0,"horror");
+//        film1.addSkill(1,"Action");
+//        System.out.println(film1);
+//    }
+//}
+// не розумію чому не може відпрацьовувати зтакими аргументами.
+// ArrayList тежнесхтів працювати.
 
-        Film film1 = new Film(1,"The silence of the lamb",1991);
-        skills.add("Horror");
-        skills.add("Thriller");
+    public static void main(String[] args) {
+        Film film1 = new Film("Ago", 2020);
+        film1.addSkill(0, "horror");
+        film1.addSkill(1, "Action");
         System.out.println(film1);
     }
 }
